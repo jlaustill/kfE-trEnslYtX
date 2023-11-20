@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fec3a001-ee8a-44a4-b0b6-ec0be43a1003" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipadict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ipadict.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +116,8 @@
       <workItem from="1543442885884" duration="1275000" />
       <workItem from="1543764028706" duration="665000" />
       <workItem from="1543803405386" duration="601000" />
-      <workItem from="1700412421966" duration="2648000" />
+      <workItem from="1700412421966" duration="3748000" />
+      <workItem from="1700461890597" duration="2266000" />
     </task>
     <servers />
   </component>
@@ -149,6 +150,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md" />

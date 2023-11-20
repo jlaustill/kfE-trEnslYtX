@@ -10,6 +10,8 @@ const ipaToKfa = (word = '') => {
     word = word.replace(/[e][j]/ig, 'eE');
     word = word.replace(/[o][w]/ig, 'oU');
     word = word.replace(/[a][w]/ig, 'AU');
+    word = word.replace(/[ɪ][ŋ]/ig, 'EN');
+    word = word.replace(/[j]/ig, 'y');
     word = word.replace(/[i]/ig, 'E');
     word = word.replace(/[u]/ig, 'U');
     word = word.replace(/[ɑ]/ig, 'o');
@@ -19,6 +21,7 @@ const ipaToKfa = (word = '') => {
     word = word.replace(/[æ]/ig, 'a');
     word = word.replace(/[θ]/ig, 'T');
     word = word.replace(/[ɪ]/ig, 'i');
+    word = word.replace(/[ə]/ig, 'i');
     word = word.replace(/[ʤ]/ig, 'j');
     word = word.replace(/[ŋ]/ig, 'N');
     word = word.replace(/[ɹ]/ig, 'r');
@@ -58,12 +61,14 @@ function englishToKfa(_toTrans) {
       if (word) {
         const kfa = dict.find(w => w.english.toLowerCase() === word.toLowerCase());
         result += kfa ? kfa.kfa : word;
+        console.log(kfa);
       }
       word = "";
       result += toTrans[i];
     }
   }
 
+  // console.log("toTrans ", _toTrans, "word ", word, "result ", result);
   return result.trim();
 }
 
